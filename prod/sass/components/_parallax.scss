@@ -1,0 +1,842 @@
+@media all and (max-width: 1360px) {
+	#parallax-block ul.quick-nav {
+		top: 134px !important;
+		left: 40px !important;
+	}
+
+	#parallax-block #next-section {
+		left: 40px !important;
+	}
+
+	#parallax-block #back-top {
+		top: 130px !important;
+		right: 40px !important;
+	}
+
+	#parallax-block ul.quick-nav.dockTop,
+	#parallax-block #back-top.dockTop {
+		top: 40px !important;
+	}
+
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	overflow-x: hidden;
+	font-family: 'HelveticaNeueW01-Roman', sans-serif, Helvetica, Arial, Sans-Serif;
+	background: #000000 url(/HTMLResources/img/main-background.png) 50% 50% no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+#header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+#container {
+	position: absolute;
+	top: 0;
+	width: 100% !important;
+	height: 100%;
+}
+
+#content {
+	float: none;
+	position: relative;
+	width: 1024px;
+	height: 100%;
+	margin: 0 auto;
+	margin-top: 0;
+}
+
+h1,
+#content #sideBar,
+#footer {
+	display: none;
+}
+
+#parallax-block {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#parallax-block div.advancedSearch {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0;
+}
+
+#parallax-block .UserContent {
+	position: relative;
+	height: 101%;
+	margin-bottom: 0;
+	margin: 0 auto;
+}
+
+#parallax-block #back-top {
+	z-index: 100;
+	position: fixed;
+	top: 114px;
+	right: 102px;
+	background: url(/HTMLResources/img/css-sprite.png) -49px -16px no-repeat;
+}
+
+#parallax-block #back-top a {
+	display: block;
+	width: 68px;
+	height: 52px;
+	text-indent: -9999px;
+}
+
+#parallax-block #next-section {
+	content: '';
+	z-index: 100;
+	position: fixed;
+	bottom: 25px;
+	left: 102px;
+	width: 20px;
+	height: 40px;
+	background: url(/HTMLResources/img/css-sprite.png) -6px -32px no-repeat;
+	-webkit-animation: arrowDown 2s infinite ease-in-out;
+	-moz-animation: arrowDown 2s infinite ease-in-out;
+	animation: arrowDown 2s infinite ease-in-out;
+}
+
+#parallax-block #next-section a {
+	display: block;
+	width: 24px;
+	height: 48px;
+	text-indent: -9999px;
+}
+
+@keyframes arrowDown{
+	0%   {bottom: 25px;}
+	50%  {bottom: 0;}
+	100%  {bottom: 25px;}
+}
+
+@-moz-keyframes arrowDown{
+	0%   {bottom: 25px;}
+	50%  {bottom: 0;}
+	100%  {bottom: 25px;}
+}
+
+@-webkit-keyframes arrowDown{
+	0%   {bottom: 25px;}
+	50%  {bottom: 0;}
+	100%  {bottom: 25px;}
+}
+
+#parallax-block ul.quick-nav {
+	z-index: 100;
+	position: fixed;
+	top: 134px;
+	left: 102px;
+	margin: 0;
+	list-style-position:inside;
+}
+
+#parallax-block ul.quick-nav li {
+	position: relative;
+	line-height: 16px;
+	list-style-type: none;
+}
+
+#parallax-block ul.quick-nav li a.active {
+	color: #ffffff;
+}
+
+#parallax-block ul.quick-nav li a.active:before {
+	background: #12b7b3;
+}
+
+#parallax-block ul.quick-nav li a:before {
+	content: '';
+	position: absolute;
+	top: 3px;
+	left: 0;
+	width: 11px;
+	height: 11px;
+	background: #132b2b;
+}
+
+#parallax-block ul.quick-nav li a {
+	padding-left: 26px;
+	font-size: 12px;
+	color: #2e2f2e;
+}
+
+#parallax-block ul.quick-nav li a:hover {
+	color: #ffffff;
+}
+
+#parallax-block ul.quick-nav li a:hover:before {
+	background: #12b7b3;
+}
+
+#parallax-block .people-wrapper {
+	position: fixed;
+	bottom: -1000px;
+	left: 50%;
+	width: 1024px;
+	height: 100%;
+	margin-left: -498px;
+}
+
+#parallax-block .person {
+	position: absolute;
+	bottom: 0;
+	display: inline-block;
+	height: 100%;
+	max-height: 600px;
+}
+
+#parallax-block .people-wrapper .person.one {
+	z-index: 2;
+	left: 80px;
+	width: 310px;
+	background: url(/HTMLResources/img/service-person-1.png) 50% bottom no-repeat;
+}
+
+#parallax-block .people-wrapper .person.two {
+	z-index: 3;
+	left: 340px;
+	width: 379px;
+	background: url(/HTMLResources/img/service-person-2.png) 50% bottom no-repeat;
+}
+
+#parallax-block .people-wrapper .person.three {
+	z-index: 1;
+	left: 610px;
+	width: 503px;
+	background: url(/HTMLResources/img/service-person-3.png) 50% bottom no-repeat;
+}
+
+#parallax-block .person .fade-icon {
+	opacity: 1;
+}
+
+#parallax-block .main-section {
+	position: relative;
+	width: 1024px;
+	height: 100%;
+}
+
+#parallax-block .main-section .section {
+	left: auto !important;
+}
+
+#parallax-block .main-section .text-block { position: absolute; }
+#parallax-block .main-section .text-block.left { left: -1000px; }
+#parallax-block .main-section .text-block.right { right: -1000px; }
+#parallax-block .main-section .text-block h2,
+#parallax-block .main-section .text-block h3,
+#parallax-block .main-section .text-block h4 {
+	font-family: 'HelveticaNeueW01-Thin', Helvetica, Arial, Sans-Serif !important;
+	font-weight: normal;
+	color: #ffffff;
+}
+
+#parallax-block .main-section .text-block h2 {
+	margin: 0 0 30px 0;
+	font-size: 35px;
+	line-height: 37px;
+}
+
+#parallax-block .main-section .text-block h2 span {
+	color: #13b6b3;
+}
+
+#parallax-block .main-section .text-block h3 {
+	margin: 0 0 20px 0;
+	font-size: 27px;
+	line-height: normal;
+}
+
+#parallax-block .main-section .text-block h4 {
+	margin: -20px 0 20px 0;
+	font-size: 21px;
+	line-height: 30px;
+}
+
+#parallax-block .main-section .text-block .image-text {
+	display: block;
+	margin: -30px 0 30px;
+	background: url(/HTMLResources/img/css-sprite-4.png);
+	background-repeat: no-repeat;
+}
+
+#parallax-block .main-section .text-block p {
+	font-size: 12px;
+	line-height: 16px;
+	color: #ffffff;
+}
+
+#parallax-block .main-section .text-block ul {
+	position: relative;
+	margin: 0;
+}
+
+#parallax-block .main-section .text-block ul li:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 17px;
+	height: 21px;
+	background: url(/HTMLResources/img/css-sprite.png) -444px -292px no-repeat;
+}
+
+#parallax-block .main-section .text-block ul li {
+	position: relative;
+	font-size: 12px;
+	margin-bottom: 16px;
+	padding-left: 48px;
+	list-style-type: none;
+	color: #ffffff;
+}
+
+#parallax-block .main-section .fade-icon {
+	z-index: 5;
+	position: absolute;
+	display: block;
+	background: url(/HTMLResources/img/css-sprite.png);
+	background-repeat: no-repeat;
+}
+
+.manuel-spacer {
+	float: left;
+	width: 100%;
+	height: 4000px;
+	display: none;
+}
+
+.superscrollorama-pin-spacer {
+	padding-bottom: 3000px;
+}
+
+#parallax-block #landing-page {
+	position: fixed;
+	top: 0;
+	height: 100%;
+}
+
+#parallax-block #landing-page .fade-icon {
+	opacity: 1;
+}
+
+#parallax-block #landing-page .text-block {
+	left: 0;
+	bottom: 84px;
+	width: 440px;
+}
+
+#parallax-block #landing-page .person {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 599px;
+	height: 550px;
+	background: url(/HTMLResources/img/landing-image.png) bottom right 0 no-repeat;
+}
+
+#parallax-block #landing-page .service-title-1 {
+	bottom: 260px;
+	right: 514px;
+	width: 50px;
+	height: 98px;
+	background-position: -334px -10px;
+}
+
+#parallax-block #landing-page .service-title-2 {
+	bottom: 262px;
+	right: 373px;
+	width: 55px;
+	height: 98px;
+	background-position: -142px -8px;
+}
+
+#parallax-block #landing-page .service-title-3 {
+	bottom: 271px;
+	right: 32px;
+	width: 78px;
+	height: 90px;
+	background-position: -226px -10px;
+}
+
+#parallax-block #landing-page .link {
+	cursor: hand;
+	cursor: pointer;
+}
+
+#parallax-block #landing-page .light-bulb {
+	bottom: 508px;
+	right: 212px;
+	width: 66px;
+	height: 74px;
+	background-position: -408px -10px;
+}
+
+#parallax-block #service {
+	z-index: 2;
+	position: relative;
+	top: 0;
+	left: 0 !important;
+	width: 100%;
+}
+
+#parallax-block #service a {
+	z-index: 1000;
+}
+
+#parallax-block .people-wrapper .fade-icon {
+	opacity: 0;
+}
+
+#parallax-block .people-wrapper .service-title-1 {
+	bottom: 140px;
+	width: 113px;
+	height: 37px;
+	margin-left: -125px;
+	background-position: -10px -130px;
+}
+
+#parallax-block .people-wrapper .service-title-2 {
+	bottom: 448px;
+	width: 78px;
+	height: 94px;
+	background-position: -137px -122px;
+}
+
+#parallax-block .people-wrapper .service-title-3 {
+	bottom: 148px;
+	width: 126px;
+	height: 42px;
+	margin-left: 92px;
+	background-position: -224px -124px;
+}
+
+#parallax-block .people-wrapper .section {
+	float: left;
+	position: relative;
+	height: 100%;
+}
+
+#parallax-block #service .section .wrapper {
+	position: relative;
+	width: 1024px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#parallax-block #service-advisor .text-block {
+	bottom: 10%;
+	width: 400px;
+}
+
+#parallax-block #service-advisor .text-block .image-text {
+	width: 314px;
+	height: 45px;
+	margin-left: 50px;
+	background-position: 0px 0px;
+}
+
+#parallax-block #service-advisor .icon-1 {
+	bottom: 260px;
+	left: -124px;
+	width: 170px;
+	height: 37px;
+	background: url(/HTMLResources/img/css-sprite.png) -438px -234px no-repeat;
+}
+
+#parallax-block #service-advisor .icon-2 {
+	bottom: 78px;
+	left: 30px;
+	width: 56px;
+	height: 40px;
+	background: url(/HTMLResources/img/css-sprite.png) -371px -292px no-repeat;
+}
+
+#parallax-block #service-advisor .icon-3 {
+	bottom: 476px;
+	left: 340px;
+	width: 84px;
+	height: 87px;
+	background: url(/HTMLResources/img/css-sprite.png) -6px -234px no-repeat;
+}
+
+#parallax-block #service-advisor .icon-4 {
+	bottom: 338px;
+	right: 30px;
+	width: 116px;
+	height: 112px;
+	background: url(/HTMLResources/img/css-sprite.png) -100px -234px no-repeat;
+}
+
+#parallax-block #service-advisor .icon-5 {
+	bottom: 78px;
+	right: 30px;
+	width: 124px;
+	height: 136px;
+	background: url(/HTMLResources/img/css-sprite.png) -225px -232px no-repeat;
+}
+
+#parallax-block #service-manager .text-block {
+	bottom: 10%;
+	width: 330px;
+}
+
+#parallax-block #service-manager .text-block .image-text {
+	width: 314px;
+	height: 45px;
+	margin-left: 50px;
+	background-position: 0px 0px;
+}
+
+#parallax-block #service-manager .icon-1 {
+	bottom: 322px;
+	left: 380px;
+	width: 34px;
+	height: 36px;
+	background: url(/HTMLResources/img/css-sprite.png) -481px -285px no-repeat;
+}
+
+#parallax-block #service-manager .icon-2 {
+	bottom: 460px;
+	right: 444px;
+	width: 118px;
+	height: 121px;
+	background: url(/HTMLResources/img/css-sprite-2.png) -7px -21px no-repeat;
+}
+
+#parallax-block #service-manager .icon-3 {
+	bottom: 352px;
+	right: 354px;
+	width: 26px;
+	height: 26px;
+	background: url(/HTMLResources/img/css-sprite.png) -531px -289px no-repeat;
+}
+
+#parallax-block #service-manager .icon-4 {
+	bottom: 452px;
+	right: 200px;
+	width: 170px;
+	height: 37px;
+	background: url(/HTMLResources/img/css-sprite.png) -438px -234px no-repeat;
+}
+
+#parallax-block #service-manager .icon-5 {
+	bottom: 126px;
+	right: 90px;
+	width: 226px;
+	height: 220px;
+	background: url(/HTMLResources/img/css-sprite-2.png) -153px -7px no-repeat;
+}
+
+#parallax-block #service-supervisor .text-block {
+	bottom: 60px;
+	width: 370px;
+}
+
+#parallax-block #service-supervisor .text-block .image-text {
+	width: 314px;
+	height: 45px;
+	margin-left: 50px;
+	background-position: 0px 0px;
+}
+
+#parallax-block #service-supervisor .text-block ul {
+	margin-left: 60px;
+}
+
+#parallax-block #service-supervisor .icon-1 {
+	bottom: 108px;
+	left: -124px;
+	width: 170px;
+	height: 37px;
+	background: url(/HTMLResources/img/css-sprite.png) -438px -234px no-repeat;
+}
+
+#parallax-block #service-supervisor .icon-2 {
+	bottom: 188px;
+	left: 50px;
+	width: 121px;
+	height: 154px;
+	background: url(/HTMLResources/img/css-sprite-2.png) -427px -11px no-repeat;
+}
+
+#parallax-block #service-supervisor .icon-3 {
+	bottom: 76px;
+	left: 130px;
+	width: 92px;
+	height: 64px;
+	background: url(/HTMLResources/img/css-sprite-2.png) -19px -163px no-repeat;
+}
+
+#parallax-block #service-supervisor .icon-4 {
+	bottom: 440px;
+	right: 300px;
+	width: 54px;
+	height: 108px;
+	background: url(/HTMLResources/img/css-sprite-2.png) -578px -14px no-repeat;
+}
+
+#parallax-block #service-supervisor .icon-5 {
+	bottom: 215px;
+	right: 292px;
+	width: 42px;
+	height: 34px;
+	background: url(/HTMLResources/img/css-sprite.png) -574px -284px no-repeat;
+}
+
+#parallax-block #career-progression .text-block {
+	bottom: 84px;
+	width: 320px;
+}
+
+#parallax-block #career-progression .text-block .image-text {
+	width: 285px;
+	height: 93px;
+	background-position: 0px -47px;
+}
+
+#parallax-block #career-progression .ipad-1 {
+	bottom: 1200px;
+	left: 78px;
+	width: 102px;
+	height: 140px;
+	background:  url(/HTMLResources/img/css-sprite-3.gif) 0px 0px no-repeat;
+}
+
+#parallax-block #career-progression .ipad-2 {
+	bottom: 1200px;
+	left: 220px;
+	width: 128px;
+	height: 164px;
+	background:  url(/HTMLResources/img/css-sprite-3.gif) -108px 0px no-repeat;
+}
+
+#parallax-block #career-progression .icon-1 {
+	bottom: 74px;
+	left: -138px;
+	width: 327px;
+	height: 267px;
+	background: url(/HTMLResources/img/css-sprite-2.png) -509px -171px no-repeat;
+}
+
+#parallax-block #career-progression .icon-2 {
+	bottom: 450px;
+	left: 132px;
+	width: 150px;
+	height: 118px;
+	background: url(/HTMLResources/img/css-sprite-2.png) -655px 24px no-repeat;
+}
+
+#parallax-block #benefits .text-block.left {
+	bottom: 40px;
+	width: 370px;
+}
+
+#parallax-block #benefits .text-block .image-text {
+	width: 346px;
+	height: 53px;
+	background-position: 0px -142px;
+}
+
+#parallax-block #benefits .text-block.right {
+	bottom: 342px;
+	width: 370px;
+}
+
+#parallax-block #benefits .ipad-1 {
+	bottom: 2000px;
+	left: 296px;
+	width: 134px;
+	height: 164px;
+	background:  url(/HTMLResources/img/css-sprite-3.gif) -510px 0px no-repeat;
+}
+
+#parallax-block #benefits .ipad-2 {
+	bottom: 2000px;
+	left: 468px;
+	width: 134px;
+	height: 164px;
+	background:  url(/HTMLResources/img/css-sprite-3.gif) -638px 0px no-repeat;
+}
+
+#parallax-block #benefits .ipad-3 {
+	bottom: 2000px;
+	left: 820px;
+	width: 134px;
+	height: 164px;
+	background:  url(/HTMLResources/img/css-sprite-3.gif) -778px 0px no-repeat;
+}
+
+#parallax-block #benefits .ipad-4 {
+	bottom: 2000px;
+	left: 970px;
+	width: 138px;
+	height: 179px;
+	background:  url(/HTMLResources/img/css-sprite-3.gif) -912px 0px no-repeat;
+}
+
+#parallax-block #benefits .icon-1 {
+	bottom: 80px;
+	left: 240px;
+	width: 92px;
+	height: 100px;
+	background: url(/HTMLResources/img/css-sprite-2.png) -15px -240px no-repeat;
+}
+
+#parallax-block #benefits .icon-2 {
+	bottom: 328px;
+	left: 286px;
+	width: 30px;
+	height: 22px;
+	background: url(/HTMLResources/img/css-sprite-2.png) -130px -241px no-repeat;
+}
+
+#parallax-block #benefits .icon-3 {
+	bottom: 464px;
+	left: 305px;
+	width: 102px;
+	height: 16px;
+	background: url(/HTMLResources/img/css-sprite-2.png) -185px -240px no-repeat;
+}
+
+#parallax-block #benefits .icon-4 {
+	bottom: 504px;
+	left: 478px;
+	width: 70px;
+	height: 68px;
+	background: url(/HTMLResources/img/css-sprite-2.png) -296px -240px no-repeat;
+}
+
+#parallax-block #benefits .icon-5 {
+	bottom: 278px;
+	left: 574px;
+	width: 51px;
+	height: 49px;
+	background: url(/HTMLResources/img/css-sprite-2.png) -384px -240px no-repeat;
+}
+
+#parallax-block #benefits .icon-6 {
+	bottom: 52px;
+	left: 780px;
+	width: 50px;
+	height: 95px;
+	background: url(/HTMLResources/img/css-sprite-2.png) -110px -290px no-repeat;
+}
+
+#parallax-block #location .text-block.left {
+	bottom: 312px;
+}
+
+#parallax-block #location .text-block .image-text {
+	width: 332px;
+	height: 46px;
+	background-position: 0px -197px;
+}
+
+#parallax-block #location .main-bg {
+	position: absolute;
+	bottom: -1000px;
+	left: -140px;
+	width: 1078px;
+	height: 285px;
+	background: url(/HTMLResources/img/location-bg.png) left bottom no-repeat;
+}
+
+#parallax-block #location .person {
+	z-index: 2;
+	right: -140px;
+	bottom: -1000px;
+	width: 529px;
+	background: url(/HTMLResources/img/location-person-1.png) right bottom no-repeat;
+}
+
+#parallax-block #location .icon-1 {
+	bottom: 298px;
+	left: 658px;
+	width: 98px;
+	height: 118px;
+	background: url(/HTMLResources/img/css-sprite.png) -366px -114px no-repeat;
+}
+
+#parallax-block #location .icon-2 {
+	bottom: 132px;
+	left: -100px;
+	width: 102px;
+	height: 80px;
+	background: url(/HTMLResources/img/css-sprite.png) -454px -120px no-repeat;
+}
+
+#parallax-block #location .icon-3 {
+	bottom: 158px;
+	left: 180px;
+	width: 108px;
+	height: 25px;
+	background: url(/HTMLResources/img/css-sprite.png) -560px -114px no-repeat;
+}
+
+#parallax-block #location .icon-4 {
+	bottom: 200px;
+	left: 388px;
+	width: 120px;
+	height: 46px;
+	background: url(/HTMLResources/img/css-sprite.png) -566px -164px no-repeat;
+}
+
+#parallax-block #location .icon-5 {
+	bottom: 138px;
+	left: 600px;
+	width: 110px;
+	height: 70px;
+	background: url(/HTMLResources/img/css-sprite.png) -690px -115px no-repeat;
+}
+
+#parallax-block #where-fit-in .person {
+	position: absolute;
+	bottom: -1000px;
+	right: 0;
+	width: 599px;
+	height: 550px;
+	background: url(/HTMLResources/img/landing-image.png) bottom right 0 no-repeat;
+}
+
+#parallax-block #where-fit-in .service-title-1 {
+	bottom: 260px;
+	right: 514px;
+	width: 50px;
+	height: 98px;
+	background-position: -334px -10px;
+}
+
+#parallax-block #where-fit-in .service-title-2 {
+	bottom: 262px;
+	right: 373px;
+	width: 55px;
+	height: 98px;
+	background-position: -142px -8px;
+}
+
+#parallax-block #where-fit-in .service-title-3 {
+	bottom: 271px;
+	right: 32px;
+	width: 78px;
+	height: 90px;
+	background-position: -226px -10px;
+}
+
+#parallax-block #where-fit-in .text-block.left {
+	bottom: 118px;
+	width: 370px;
+}
