@@ -3989,24 +3989,24 @@ h1,
   margin-bottom: 0;
   margin: 0 auto; }
 
-#parallax-block #back-top {
+#back-top {
   z-index: 100;
   position: fixed;
   top: 114px;
   right: 102px;
   background: url(/HTMLResources/img/css-sprite.png) -49px -16px no-repeat; }
 
-#parallax-block #back-top a {
+#back-top a {
   display: block;
   width: 68px;
   height: 52px;
   text-indent: -9999px; }
 
-#parallax-block #next-section {
+#next-section {
   content: '';
   z-index: 100;
   position: fixed;
-  bottom: 25px;
+  bottom: 40px;
   left: 102px;
   width: 20px;
   height: 40px;
@@ -4014,7 +4014,7 @@ h1,
   -webkit-animation: arrowDown 2s infinite ease-in-out;
   animation: arrowDown 2s infinite ease-in-out; }
 
-#parallax-block #next-section a {
+#next-section a {
   display: block;
   width: 24px;
   height: 48px;
