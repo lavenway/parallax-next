@@ -3929,8 +3929,30 @@ body {
 #header {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%; }
+  left: 50%;
+  width: 100%;
+  max-width: 1280px;
+  height: 114px;
+  margin-left: -640px;
+  background: #000000 url(/HTMLResources/img/header-texture.jpg) 3px 0 repeat; }
+
+#header .logo {
+  float: left;
+  margin-top: 20px; }
+
+#header .false-search {
+  float: right;
+  width: 281px;
+  margin-top: 26px; }
+
+#header .false-nav {
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  margin-top: 26px;
+  margin-left: -640px; }
 
 #container {
   position: absolute;
@@ -4018,8 +4040,8 @@ h1,
   z-index: 100;
   position: fixed;
   top: 134px;
-  left: 102px;
-  margin: 0;
+  left: 50%;
+  margin: 0 0 0 -640px;
   list-style-position: inside; }
 
 #parallax-block ul.quick-nav li {
